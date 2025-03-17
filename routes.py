@@ -13,7 +13,7 @@ routes = {
     "/snippets": ["GET", "gets all snippets"],
     "/snippets/<id>": ["GET", "gets a specific snippet of given id"],
     "/snippets/add": ["POST", "adds a snippet"],
-    "/snippets/update/<id>": {"PUT", "udates the snippet of given id"},
+    "/snippets/update/<id>": ["PUT", "udates the snippet of given id"],
     "/snippets/delete/<id>": ["DELETE", "deletes the snippet of given id"]
 }
 
